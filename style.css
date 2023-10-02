@@ -4,6 +4,9 @@ h1{
 table{
     width: 100%;
 }
+img{
+    width: 600px;
+}
 .btn {
     background-color: DodgerBlue;
     border: none;

@@ -6,14 +6,15 @@
     <title>Document</title>
     <script src="scripts.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body onload="repete()">
     <h1>carousel</h1>
     <table>
         <tr>
-            <th><input type="button" value="prev" onclick="prev()" class="btn"></th>
+            <th><button onclick="prev()" class="btn"><i class="fa fa-angle-left"></i></button></th>
             <th><img src="0.jpg" alt="picture" id="im"></th>
-            <th><input type="button" value="next" onclick="next()" class="btn"></th>
+            <th><button onclick="next()" class="btn"><i class="fa fa-angle-right"></i></button></th>
         </tr>
     </table>
     
