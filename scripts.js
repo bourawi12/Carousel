@@ -25,8 +25,5 @@ function prev(){
 }
 function repete(){
     setInterval(next, 3000);
-    for(let i=0;i<6;i++){
-    console.log("i'm in infinite lopp");
     
-    }
 }
